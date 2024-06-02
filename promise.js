@@ -32,6 +32,15 @@ function pro(){
         },2200)
     });
     let promiseDone = promised;
-    console.log(promiseDone)
+    console.log(promiseDone(promised))
 };
 pro();
+
+
+// function fetching(){
+//     let data = new Promise(function(resolve){
+//         setTimeout(()=>{
+//             if()
+//         })
+//     })
+// }
