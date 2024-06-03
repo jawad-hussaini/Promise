@@ -67,7 +67,7 @@
 // Same condition like as writen in above syntax
 
 async function object() {
-    const obj = new Promise(function(resolve, reject){
+    const obj = new Promise((resolve, reject)=>{
         setTimeout(()=>{
             resolve({username: "Malik", gmail: "malik@123.com"})
         },3000)
