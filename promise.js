@@ -72,11 +72,8 @@ async function object() {
             resolve({username: "Malik", gmail: "malik@123.com"})
         },3000)
     })
-    
-    // obj.then(function(resolved){
-    //     console.log(resolved)
-    // })
+
     let resolving = await obj;
     console.log(resolving)
 };
-object()
+object();
